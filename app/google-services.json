@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "188672956484",
+    "firebase_url": "https://tileapp-ff417.firebaseio.com",
+    "project_id": "tileapp-ff417",
+    "storage_bucket": "tileapp-ff417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188672956484:android:b96307013df2d759",
+        "android_client_info": {
+          "package_name": "tl25.tileappv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188672956484-f4uclmc88n7prj0ludjscsvfvibqmh8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tl25.tileappv2",
+            "certificate_hash": "fd9d63859180dd62eb1010efbaff44d373b353bc"
+          }
+        },
+        {
+          "client_id": "188672956484-m5mal261hlmauu1q6beo2t18o0bpre7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9raxaqbsCSJUxkM6A3iR4t6Qa5WqVb6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188672956484-m5mal261hlmauu1q6beo2t18o0bpre7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

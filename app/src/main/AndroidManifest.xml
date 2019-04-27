@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tl25.tileappv2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tile"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+       <activity
+            android:name=".TileMainPage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Textpage"
+                  android:theme= "@style/ThemeDialog"
+             />
+        <activity android:name=".PaintMainpage"/>
+        <activity android:name=".ColourPicker" />
+        <!--<activity android:name=".TileMainPage" />-->
+        <activity android:name=".LoadingPage"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>

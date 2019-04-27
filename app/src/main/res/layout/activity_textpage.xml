@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/edt_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Type here"
+        android:backgroundTint="@color/dark_gold"
+        android:textColorHint="@color/light_grey"
+        android:textColor="@color/light_grey"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/light_gold"
+        android:text="Send to Tile"
+        android:textSize="20sp"
+        android:layout_below="@+id/edt_comment"
+        android:textColor="@color/dark_grey" />
+
+</RelativeLayout>

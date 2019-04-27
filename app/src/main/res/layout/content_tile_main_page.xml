@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/general_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/border">
+
+        <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Currenttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Current Text: "
+                android:textColor="#231F20"
+                android:textSize="16sp"
+                android:alpha="1.0"
+                android:textStyle="bold" />
+
+            <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/Currenttext"
+            android:layout_toEndOf="@+id/Currenttext"
+            android:textColor="#231F20"
+                android:alpha="1.0"
+                android:textSize="16sp"   />
+
+            <com.github.zagum.switchicon.SwitchIconView
+                android:layout_gravity ="end"
+                android:layout_alignLeft="@+id/switchIconView1"
+                android:id="@+id/switchIconView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                app:si_animation_duration="300"
+                app:si_disabled_alpha=".3"
+                app:si_disabled_color="#b7b7b7"
+                app:si_tint_color="#FF4081"
+                app:si_enabled="false"
+                app:si_no_dash="false"
+                app:srcCompat="@drawable/ic_sleep"/>
+
+            <com.github.zagum.switchicon.SwitchIconView
+                android:layout_alignEnd="@+id/textView"
+                android:layout_gravity = "end"
+                android:id="@+id/switchIconView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="8dp"
+                app:si_animation_duration="300"
+                app:si_disabled_alpha=".3"
+                app:si_disabled_color="#b7b7b7"
+                app:si_tint_color="#623CEA"
+                app:si_enabled="false"
+                app:si_no_dash="false"
+                app:srcCompat="@drawable/ic_light"/>
+
+   </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/general_appbar"
+        android:layout_above="@+id/swipe_btn"
+        tools:context="tl25.tileappv2.TileMainPage">
+
+    </FrameLayout>
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:alpha = "0.8"
+        android:id="@+id/swipe_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-7dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:button_background="@drawable/shape_button3"
+        app:button_bottom_padding="5dp"
+        app:button_image_disabled="@drawable/alphabet"
+        app:button_image_enabled="@drawable/handwave"
+        app:button_image_height="50dp"
+        app:button_image_width="60dp"
+        app:button_left_padding="5dp"
+        app:button_right_padding="5dp"
+        app:button_top_padding="5dp"
+        app:has_activate_state="true"
+        app:initial_state="disabled"
+        app:inner_text="Activate Mirror Mode"
+        app:inner_text_background="@drawable/shape_rounded2"
+        app:inner_text_bottom_padding="5dp"
+        app:inner_text_left_padding="47dp"
+        app:inner_text_color="#EAEAEA"
+        app:inner_text_size="20sp"
+        app:inner_text_top_padding="5dp" />
+
+
+</RelativeLayout>
+
+    <!--app:button_image_enabled="@drawable/ic_lock_outline_black_24dp"-->

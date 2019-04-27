@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tile</string>
+    <string name="action_settings">Settings</string>
+    <string name="Text">Enter Text to Display on Tile</string>
+    <string name = "label_cancel">Cancel</string>
+    <string name = "label_submit">Submit</string>
+</resources>

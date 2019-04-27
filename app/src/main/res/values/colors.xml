@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3B47</color>
+    <color name="colorPrimaryDark">#000607</color>
+    <color name="colorAccent">#9A596F</color>
+    <color name = "sliderback">#F7FFF7</color>
+    <color name="background">#EAEAEA</color>
+    <color name="light_gold">#AD974F</color>
+    <color name="dark_gold">#8E793E</color>
+    <color name="dark_grey">#231F20</color>
+    <color name="light_grey">#EAEAEA</color>
+</resources>
